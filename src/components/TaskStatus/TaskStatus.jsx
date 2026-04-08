@@ -1,10 +1,14 @@
 import React from 'react';
 
-const TaskStatus = ({taskInProgress, setTaskInProgress, setCompletedTask, completedTask}) => {
+const TaskStatus = ({taskInProgress, setTaskInProgress, setCompletedTask, completedTask, setTicketData, ticketData}) => {
     const handleCompletedTask = (task)=>{
         setCompletedTask([...completedTask, task]);
+
         const remainingTaskInProgress = taskInProgress.filter(taskP => taskP.id !== task.id);
         setTaskInProgress(remainingTaskInProgress);
+
+        const remainingTicketData = ticketData.filter(taskD => taskD.id !== task.id);
+        setTicketData(remainingTicketData);
     }
     return (
         <div className='grid grid-cols-1 gap-5'>

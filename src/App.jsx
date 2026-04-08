@@ -18,7 +18,10 @@ function App() {
   return (
     <>
       <Header/>
-      <TaskBoard/>
+      <TaskBoard
+        taskInProgress={taskInProgress}
+        completedTask={completedTask}
+      />
       <Suspense fallback={<div className='flex flex-col items-center justify-center'><span className="loading loading-spinner loading-xl"></span></div>}>
         <TaskPanel 
           fetchTicket={fetchTicket} 

@@ -1,10 +1,10 @@
-import React, { use } from 'react';
+import React, { use, useState } from 'react';
 import CustomerTickets from '../CustomerTickets/CustomerTickets';
 import TaskStatus from '../TaskStatus/TaskStatus';
 import ResolvedTask from '../ResolvedTask/ResolvedTask';
 
 const TaskPanel = ({fetchTicket, taskInProgress, setTaskInProgress, setCompletedTask, completedTask}) => {
-  const ticketData = use(fetchTicket);
+  const [ticketData, setTicketData] = useState(use(fetchTicket))
   
     return (
       <div className='max-w-360 w-full mx-auto grid grid-cols-4 gap-8 pb-20'>
@@ -24,6 +24,8 @@ const TaskPanel = ({fetchTicket, taskInProgress, setTaskInProgress, setCompleted
            setTaskInProgress={setTaskInProgress}
            completedTask={completedTask}
            setCompletedTask={setCompletedTask}
+           setTicketData={setTicketData}
+           ticketData={ticketData}
           />
 
           <h1  className='text-2xl font-semibold text-[#34485A] mb-4 mt-10'>Resolved Task</h1>
