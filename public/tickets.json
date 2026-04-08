@@ -1,0 +1,92 @@
+[
+  {
+    "id": "#1001",
+    "title": "Login Issues - Can't Access Account",
+    "description": "Customer is unable to log in to their account despite multiple attempts to reset password.",
+    "customer": "John Smith",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-01-15"
+  },
+  {
+    "id": "#1002",
+    "title": "Payment Failed During Checkout",
+    "description": "User reports payment failure when trying to complete purchase using credit card.",
+    "customer": "Sarah Johnson",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2024-01-16"
+  },
+  {
+    "id": "#1003",
+    "title": "Page Not Loading",
+    "description": "Dashboard page is stuck on loading and never renders content.",
+    "customer": "Michael Brown",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2024-01-17"
+  },
+  {
+    "id": "#1004",
+    "title": "Error 500 on Profile Update",
+    "description": "Server error occurs when user tries to update profile information.",
+    "customer": "Emily Davis",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-01-18"
+  },
+  {
+    "id": "#1005",
+    "title": "Email Notifications Not Sending",
+    "description": "Users are not receiving email notifications after actions.",
+    "customer": "David Wilson",
+    "priority": "Low",
+    "status": "In Progress",
+    "createdAt": "2024-01-19"
+  },
+  {
+    "id": "#1006",
+    "title": "Slow Website Performance",
+    "description": "Website is taking too long to load on mobile devices.",
+    "customer": "Olivia Martinez",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2024-01-20"
+  },
+  {
+    "id": "#1007",
+    "title": "Incorrect Billing Amount",
+    "description": "Customer was charged more than expected for subscription renewal.",
+    "customer": "James Anderson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-01-21"
+  },
+  {
+    "id": "#1008",
+    "title": "Search Function Not Working",
+    "description": "Search results are not appearing for valid queries.",
+    "customer": "Sophia Thomas",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2024-01-22"
+  },
+  {
+    "id": "#1009",
+    "title": "File Upload Failed",
+    "description": "Users cannot upload images due to server rejection.",
+    "customer": "William Taylor",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2024-01-23"
+  },
+  {
+    "id": "#1010",
+    "title": "UI Layout Broken on Safari",
+    "description": "Layout breaks when viewed on Safari browser.",
+    "customer": "Isabella Moore",
+    "priority": "Low",
+    "status": "In Progress",
+    "createdAt": "2024-01-24"
+  }
+]
