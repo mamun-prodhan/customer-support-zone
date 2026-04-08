@@ -17,7 +17,7 @@ const CustomerTickets = ({ticketData, setTaskInProgress, taskInProgress}) => {
                  key={idx} 
                  ticket={ticket}
                  handleInprogress={handleInprogress}
-                 />) : <p className='text-sm text-[#627382] text-center'>You have no task / All task has been completed</p>
+                 />) : <p className='text-sm text-[#627382]'>You have no task / All task has been completed</p>
             }
         </div>
     );
